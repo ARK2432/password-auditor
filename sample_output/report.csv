@@ -1,0 +1,16 @@
+masked_password,length,entropy_bits,strength,zxcvbn_score,crack_time,breached,breach_count,nist_compliant,nist_score,nist_issues,suggestions
+pa******,8,37.6,Very weak,0,less than a second,True,52256179,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'password',Add another word or two. Uncommon words are better.
+12****,6,19.93,Very weak,0,less than a second,True,209972844,False,2/5,FAIL — length 6 is below NIST minimum of 8 characters; FAIL — found in a known credential breach database (HIBP); FAIL — contains sequential/repetitive pattern: '1234',Add another word or two. Uncommon words are better.
+P@******,8,52.44,Very weak,0,less than a second,True,6421042,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'p@ssw0rd',Add another word or two. Uncommon words are better.; Capitalization doesn't help very much.; Predictable substitutions like '@' instead of 'a' don't help very much.
+co**************************,28,164.02,Very strong,4,centuries,False,0,True,5/5,None,None
+Tr*********,11,72.1,Very strong,4,4 months,True,3189,False,4/5,FAIL — found in a known credential breach database (HIBP),None
+il******,8,37.6,Very weak,0,less than a second,True,7007763,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'iloveyou',Add another word or two. Uncommon words are better.
+My**************,16,104.87,Very strong,4,centuries,False,0,True,5/5,None,None
+qw*******,9,46.53,Very weak,0,less than a second,True,13856389,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains sequential/repetitive pattern: 'qwerty',Add another word or two. Uncommon words are better.
+X#*************,15,98.32,Very strong,4,centuries,False,0,True,5/5,None,None
+su********,10,51.7,Fair,2,2 minutes,True,525,False,4/5,FAIL — found in a known credential breach database (HIBP),Add another word or two. Uncommon words are better.
+ad******,8,41.36,Weak,1,less than a second,True,4840952,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'admin',Add another word or two. Uncommon words are better.
+le*****,7,32.9,Very weak,0,less than a second,True,1406394,False,2/5,FAIL — length 7 is below NIST minimum of 8 characters; FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'letmein',Add another word or two. Uncommon words are better.
+We*******,9,58.99,Weak,1,4 seconds,True,237953,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'welcome',Add another word or two. Uncommon words are better.; Capitalization doesn't help very much.
+aa****,6,28.2,Very weak,0,less than a second,True,2626645,False,2/5,FAIL — length 6 is below NIST minimum of 8 characters; FAIL — found in a known credential breach database (HIBP); FAIL — contains sequential/repetitive pattern: 'aaaa',Add another word or two. Uncommon words are better.; Avoid repeated words and characters.
+Dr******,8,47.63,Weak,1,2 seconds,True,29612,False,3/5,FAIL — found in a known credential breach database (HIBP); FAIL — contains context-specific word: 'dragon',Add another word or two. Uncommon words are better.; Capitalization doesn't help very much.
